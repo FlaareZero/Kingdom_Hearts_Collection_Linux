@@ -7,7 +7,7 @@ I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and fo
 - Lutris - In case you're using the Repacked version 
 - Heroic Games Launcher - In case you own a copy of the game
 
-- In case you're using Lutris - Wine Lutris 6.4 (For KH3) and 6.10-2(For everything else)([You can grab the 6.4 here](https://github.com/lutris/wine/releases/tag/lutris-6.4) are the recommended and known to work
+- In case you're using Lutris - Wine Lutris 6.4 (For KH3) and 6.10-2(For everything else)([You can grab the 6.4 here](https://github.com/lutris/wine/releases/tag/lutris-6.4)) are the recommended and known to work
 (For Legendary or Heroic Games Launcher, ProtonGE works perfectly fine, although you can use the 2 versions mentioned above as well)
 - A custom kernel - For better performances and reliability 
 (For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using)(For Arch, Zen Kernel)
