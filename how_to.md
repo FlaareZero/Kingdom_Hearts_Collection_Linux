@@ -6,12 +6,17 @@ I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and fo
 ## Prerequisites:
 - Lutris - In case you're using the Repacked version 
 - Heroic Games Launcher - In case you own a copy of the game
-
 - In case you're using Lutris - Wine Lutris 6.4 (For KH3) and 6.10-2(For everything else)([You can grab the 6.4 here](https://github.com/lutris/wine/releases/tag/lutris-6.4)) are the recommended and known to work
 (For Legendary or Heroic Games Launcher, ProtonGE works perfectly fine, although you can use the 2 versions mentioned above as well)
 - A custom kernel - For better performances and reliability 
-(For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using)(For Arch, Zen Kernel)
+(For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using, and for a non Ubuntu LTS go with the standard XanMod)(For Arch, Zen Kernel)(Fedora, the stock one is pretty good actually)
+- MF-Install (it's needed for all the collections to work)
+- DXVK (for KH3) / Corefonts / DXVKD3D (for everything else) / FAudio / Visual C++ 2015 - 2019 X86 and X64
 
 You can also use the provided one, but make sure to enable ESync, if the Distro you're using supports it [Here for more info](https://github.com/lutris/docs/blob/master/HowToEsync.md)
 
 # Installing
+For the sake of order, I'm gonna divide all the sections for each game.
+For the repacked version, we're gonna use Lutris.
+
+## Kingdom Hearts 3
