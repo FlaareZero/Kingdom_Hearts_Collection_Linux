@@ -4,7 +4,7 @@ WARNING: I'm using a repacked copy of Kingdom Hearts 1.5+2.5, 2.8 and Kingdom He
 I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and follow the guide by using Lutris or Heroic Games Launcher. Your choice.
 
 ## Prerequisites:
-- Lutris - In case you're the Repacked version 
+- Lutris - In case you're using the Repacked version 
 - Heroic Games Launcher - In case you own a copy of the game
 
 - In case you're using Lutris - Wine Lutris 6.4 and 6.10-2 are the recommended and known to work
