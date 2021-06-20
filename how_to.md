@@ -1,9 +1,9 @@
-#Kingdom Hearts 1.5+2.5 , 2.8 HD Remix and Kingdom Hearts 3 on Wine Lutris / Heroic Games Launcher
+# Kingdom Hearts 1.5+2.5 , 2.8 HD Remix and Kingdom Hearts 3 on Wine Lutris / Heroic Games Launcher
 
 "WARNING: In this tut I'm gonna use a pirated copy of Kingdom Hearts 1.5+2.5, 2.8 and Kingdom Hearts 3, since I've already got them for my PS3 + PS4.
 I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and follow the guide by using Lutris or Heroic Games Launcher. Your choice."
 
-#Prerequisites:
+## Prerequisites:
 - Lutris - In case you're the Repacked version 
 - Heroic Games Launcher - In case you own a copy of the game
 
@@ -14,4 +14,4 @@ I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and fo
 
 You can also use the provided one, but make sure to enable ESync, if the Distro you're using supports it [Here for more info](https://github.com/lutris/docs/blob/master/HowToEsync.md)
 
-#Installing
+# Installing
