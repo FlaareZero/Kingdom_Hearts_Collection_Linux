@@ -33,6 +33,7 @@ For the repacked version, we're gonna use Lutris.
 - Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
 
 ## Kingdom Hearts III - Heroic Games Launcher
+
 - Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
@@ -53,7 +54,7 @@ For the repacked version, we're gonna use Lutris.
 - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 
 ## Kingdom Hearts 2.8 - Heroic Games Launcher
-
+WARNING: I HAVEN'T TESTED THIS VERSION MYSELF, SO I DUNNO IF IT'S GONNA WORK. IN CASE IT DOESN'T, USE THE LUTRIS VERSION WITHOUT ISSUES!
 Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
