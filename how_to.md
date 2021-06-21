@@ -11,7 +11,7 @@ I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and fo
 - A custom kernel - For better performances and reliability 
 (For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using, and for a non Ubuntu LTS go with the standard XanMod)(For Arch, Zen Kernel. Manjaro ships by default with an FSync-enabled Kernel)(Fedora, the stock one is pretty good actually)
 - [MF-Install](https://github.com/z0z0z/mf-install) (it's needed for all the collections to work)(git clone it somewhere on your system)
-- DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris, it's built-in) / FAudio / Visual C++ 2015 - 2019 X86 and X64
+- DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris or Proton/ProtonGE, it's built-in) / FAudio / Visual C++ 2015 - 2019 X86 and X64
 - Winetricks installed 
 
 You can also use the provided one, but make sure to enable ESync, if the Distro you're using supports it [Here for more info](https://github.com/lutris/docs/blob/master/HowToEsync.md)
@@ -35,7 +35,7 @@ For the repacked version, we're gonna use Lutris.
 ## Kingdom Hearts III - Heroic Games Launcher
 - Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
-- (You can also use ProtonGE, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom).
+- (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
 - After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
 - From there, select winetricks as well, and install `faudio, corefonts` from there. Make sure to install visual C++ as well
 - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
