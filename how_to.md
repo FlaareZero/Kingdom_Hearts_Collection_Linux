@@ -31,3 +31,12 @@ For the repacked version, we're gonna use Lutris.
 - When it finishes, you're gonna open up a bash terminal using the arrow next to the bottle icon, and put yourself in the mf-install folder. Then, simply run `./mf-install.sh` and it'll take care of that. Afterwards, type `winetricks corefonts faudio`
 - After it finishes, close the window. Now you're gonna select KH3 and click "Configure", and there, in the Game options, point the executable to `KINGDOM HEARTS III.exe` is, then, in working directory, select the Win64 folder that contains the exe.
 - Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
+
+## Kingdom Hearts III - Heroic Games Launcher
+- Same as Lutris, but
+- Download the game from the library itself and also, Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
+- (You can also use ProtonGE, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom).
+- After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
+- From there, select winetricks as well, and install `faudio, corefonts` from there. Make sure to install visual C++ as well
+- For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
+- Now, if everything is set accordingly (from the game's settings you've selected ProtonGE or Wine Lutris to use, or in the other section you've put all the things you need) it should start right after pressing the green button. Enjoy!
