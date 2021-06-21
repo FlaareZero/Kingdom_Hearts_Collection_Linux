@@ -63,3 +63,7 @@ Same as Lutris, but
 - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
 - Go on KH2.8's folder, and rename the EPIC folder in EPIC.bak
 - Now, if everything is set accordingly (from the game's settings you've selected ProtonGE or Wine Lutris to use, or in the other section you've put all the things you need) it should start right after pressing the green button. Enjoy!
+
+## Kingdom Hearts 1-5 + 2.5 - Lutris Version
+
+## Kingdom Hearts 1.5 + 2.5 - Heroic Games Version
