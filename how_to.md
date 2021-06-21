@@ -22,7 +22,7 @@ For the repacked version, we're gonna use Lutris.
 
 ## Kingdom Hearts 3 - Lutris
 - Download the X version from whatever place you want
-- Put it everywhere you want
+- Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
 - Download Lutris from the official repository 
 - Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - Open Lutris the first time via terminal, by digiting `lutris -d`. If you have a good internet connection, it should take something like 2 minutes to open. If for some reason, you see errors bumping out, simply close it by pressing `ctrl+c` and reopen it again.
