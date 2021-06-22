@@ -2,7 +2,7 @@
 
 WARNING: I'm using a repacked copy of Kingdom Hearts 1.5+2.5, 2.8 and Kingdom Hearts 3, since I've already got them for my PS3 + PS4.
 I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and follow the guide by using Heroic Games Launcher as a All-in-One solution. Your choice.
-ALSO, the content of this how_to is only for educational purposes only, in order to give people a reliable and written way to play their favourite games surely on Linux. Feel free to take the guide, modify it and fork it in order to add more stuff into it if you ever wish to do so!
+ALSO, the content of this how_to is for educational purposes only, in order to give people a reliable and written way to play their favourite games surely on Linux. Feel free to take the guide, modify it and fork it in order to add more stuff into it if you ever wish to do so!
 
 ## Prerequisites:
 - Lutris - In case you're using the Repacked version 
