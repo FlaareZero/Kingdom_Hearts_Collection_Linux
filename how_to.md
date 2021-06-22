@@ -49,7 +49,7 @@ For the repacked version, we're gonna use Lutris.
 - Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
 - (To do only once) Install mf-install as for KH3 in the same way. Then, if you haven't already, type `winetricks faudio corefonts`, and when it finishes close it.
 - go on KH2.8's folder, and rename the EPIC folder in EPIC.bak
-- From Lutris, gonna select Kingdom Hearts 2.8 from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of one of the three available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/KINGDOM HEARTS 0.2 Birth by Sleep/Binaries/Win64/KINGDOM HEARTS 0.2 Birth by Sleep.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
+- From Lutris, you're gonna select Kingdom Hearts 2.8 from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of one of the three available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/KINGDOM HEARTS 0.2 Birth by Sleep/Binaries/Win64/KINGDOM HEARTS 0.2 Birth by Sleep.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
 - Do the exact same above steps for Dream Drop Distance except mf-install (since you're gonna use the same Wine version anyways)
 - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 
@@ -75,7 +75,7 @@ WARNING: If you've already installed KH3 or KH2.8 on your system using this guid
 
 - (No need if you've already done it, as per the Warning) Install mf-install as for KH3 in the same way. Then, if you haven't already, type `winetricks faudio corefonts`, and when it finishes close it.
 - go on KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
-- From Lutris, gonna select Kingdom Hearts 1.5+2.5 (or the configuration you've given it) from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of one of the three available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/Kingdom Hearts HD 1.5 + 2.5 ReMIX/Kingdom Hearts FINAL MIX.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
+- From Lutris, you're gonna select Kingdom Hearts 1.5+2.5 (or the lutris configuration that you've given it) from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of the available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/Kingdom Hearts HD 1.5 + 2.5 ReMIX/Kingdom Hearts FINAL MIX.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
 - Do the exact same above steps for all the other games, creating the bottle and configuring like the above.
 - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 - If you wanna close it, simply re-open Lutris and press stop, and it'll simply close the game.
