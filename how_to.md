@@ -92,4 +92,8 @@ Same as Lutris, but
 - Go into the KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
 - Now, if everything is set accordingly (from the game's settings you've selected ProtonGE or Wine Lutris to use, or in the other section you've put all the things you need) it should start right after pressing the green button. Enjoy!
 
-Little ![proof for you!](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
+Little proofs for you all:
+![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
+
+![](https://ibb.co/6Y7c9z4)
+
