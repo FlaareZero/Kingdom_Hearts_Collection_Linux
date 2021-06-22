@@ -95,5 +95,7 @@ Same as Lutris, but
 Little proofs for you all:
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
 
-![](https://ibb.co/6Y7c9z4)
+![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-20_18-24-26.jpg)
+
+![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo-2021-06-04-14-42-56.jpg)
 
