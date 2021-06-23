@@ -56,6 +56,7 @@ For the repacked version, we're gonna use Lutris.
 
 ## Kingdom Hearts 2.8 - Heroic Games Launcher
 WARNING: I HAVEN'T TESTED THIS VERSION MYSELF, SO I DUNNO IF IT'S GONNA WORK. IN CASE IT DOESN'T, USE THE LUTRIS VERSION WITHOUT ISSUES!
+
 Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
@@ -84,6 +85,7 @@ WARNING: If you've already installed KH3 or KH2.8 on your system using this guid
 ## Kingdom Hearts 1.5 + 2.5 - Heroic Games Version
 
 WARNING: I HAVEN'T TESTED THIS VERSION MYSELF, SO I DUNNO IF IT'S GONNA WORK. IN CASE IT DOESN'T, USE THE LUTRIS VERSION WITHOUT ISSUES!
+
 Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
