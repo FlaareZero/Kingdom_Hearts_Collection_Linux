@@ -37,6 +37,7 @@ For the repacked version, we're gonna use Lutris.
 
 - Same as Lutris, but
 - Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
+- For downloading it, I suggest either [build it from Valve's Github page](https://github.com/ValveSoftware/Proton/tree/experimental_5.13) or downloading it via Steam, and then point it to Heroic with the step next to this one.
 - After it downloads, click the gear next to the game, and select the Proton 5.13 version you've downloaded from the settings - custom wine/proton, and then by clicking the + button, and point it to Proton's folder, then the proton file.
 - Now, if everything is set accordingly (from the game's settings you've selected Proton, or in the other section you've put all the things you need, like Prime Offload etc.) it should start right after pressing the green button. Enjoy!
 
