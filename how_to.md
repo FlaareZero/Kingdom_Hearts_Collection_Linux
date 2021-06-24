@@ -36,12 +36,9 @@ For the repacked version, we're gonna use Lutris.
 ## Kingdom Hearts III - Heroic Games Launcher
 
 - Same as Lutris, but
-- Download the game from the library itself and also, Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
-- (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
-- After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
-- From there, select winetricks and install `faudio, corefonts` from there. Make sure to install visual C++ as well
-- For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
-- Now, if everything is set accordingly (from the game's settings you've selected ProtonGE or Wine Lutris to use, or in the other section you've put all the things you need) it should start right after pressing the green button. Enjoy!
+- Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
+- After it downloads, click the gear next to the game, and select the Proton 5.13 version you've downloaded from the settings - custom wine/proton, and then by clicking the + button, and point it to Proton's folder, then the proton file.
+- Now, if everything is set accordingly (from the game's settings you've selected Proton, or in the other section you've put all the things you need, like Prime Offload etc.) it should start right after pressing the green button. Enjoy!
 
 ## Kingdom Hearts 2.8 - Lutris
 
