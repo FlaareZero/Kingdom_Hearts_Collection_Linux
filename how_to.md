@@ -11,9 +11,10 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 (For Legendary or Heroic Games Launcher, ProtonGE works perfectly fine, although you can use the 2 versions mentioned above as well)
 - A custom kernel - For better performances and reliability 
 (For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using, and for a non Ubuntu LTS go with the standard XanMod)(For Arch, Zen Kernel. Manjaro ships by default with an FSync-enabled Kernel)(Fedora, the stock one is pretty good actually)
-- [MF-Install](https://github.com/z0z0z/mf-install) (it's needed for all the collections to work)(git clone it somewhere on your system)
-- DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris or Proton/ProtonGE, it's built-in) / FAudio / Visual C++ 2015 - 2019 X86 and X64
+- [MF-Install](https://github.com/z0z0z/mf-install) (it's needed for KH3 only)(git clone it somewhere on your system)
+- DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris or Proton/ProtonGE, it's built-in) / Visual C++ 2015 - 2019 X86 and X64
 - Winetricks installed 
+- If you've installed faudio, or any audio dll from winetricks, make sure to use a clean Wine Lutris or Wine / Proton runner.
 
 You can also use the provided one, but make sure to enable ESync, if the Distro you're using supports it [Here for more info](https://github.com/lutris/docs/blob/master/HowToEsync.md)
 
@@ -49,7 +50,7 @@ EDIT: Audio stopped working for me after a full format. I dunno exactly what cau
 
 - Download the X version from whatever place you want
 - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
-- From lutris, click on `Wine - Manage Versions` and download the 6.10-2. Then, you're gonna create multiple bottles, for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
+- From lutris, click on `Wine - Manage Versions` and download the latest version from Wine-Manage runners. Then, you're gonna create multiple bottles, for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
 - Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
 - (To do only once) Install mf-install as for KH3 in the same way. Then, if you haven't already, type `winetricks faudio corefonts`, and when it finishes close it.
 - go on KH2.8's folder, and rename the EPIC folder in EPIC.bak
