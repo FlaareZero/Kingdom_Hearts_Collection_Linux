@@ -52,7 +52,7 @@ EDIT: Audio stopped working for me after a full format. I dunno exactly what cau
 - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
 - From lutris, click on `Wine - Manage Versions` and download the latest version from Wine-Manage runners. Then, you're gonna create multiple bottles, for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
 - Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
-- (To do only once) Install mf-install as for KH3 in the same way. Then, if you haven't already, type `winetricks faudio corefonts`, and when it finishes close it.
+- (To do only once) Install mf-install as for KH3 in the same way.
 - go on KH2.8's folder, and rename the EPIC folder in EPIC.bak
 - From Lutris, you're gonna select Kingdom Hearts 2.8 from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of one of the three available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/KINGDOM HEARTS 0.2 Birth by Sleep/Binaries/Win64/KINGDOM HEARTS 0.2 Birth by Sleep.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
 - Do the exact same above steps for Dream Drop Distance except mf-install (since you're gonna use the same Wine version anyways)
@@ -67,7 +67,6 @@ Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
 - After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
-- From there, select winetricks and install `faudio, corefonts` or using bash, with a simple `winetricks corefonts faudio`. Make sure to install visual C++ as well.
 - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
 - Go into the KH2.8's folder, and rename the EPIC folder in EPIC.bak
 - Now, if everything is set accordingly (from the game's settings you've selected ProtonGE or Wine Lutris to use, or in the other section you've put all the things you need) it should start right after pressing the green button. Enjoy!
@@ -83,8 +82,8 @@ WARNING: If you've already installed KH3 using Lutris, mf-install won't be neede
 
 WARNING: If you've already installed KH3 using Lutris as above, mf-install and most steps won't be needed, unless you use another Wine Lutris version. In that case, you have to redo it again!
 
-- (No need if you've already done it, as per the Warning) Install mf-install as for KH3 in the same way. Then, if you haven't already, type `winetricks faudio corefonts`, and when it finishes close it.
-- go on KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
+- (No need if you've already done it, as per the Warning) Install mf-install as for KH3 in the same way.
+- Go on KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
 - From Lutris, you're gonna select Kingdom Hearts 1.5+2.5 (or the lutris configuration that you've given it) from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of the available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/Kingdom Hearts HD 1.5 + 2.5 ReMIX/Kingdom Hearts FINAL MIX.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
 - Do the exact same above steps for all the other games, creating the bottle and configuring like the above.
 - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
@@ -100,7 +99,6 @@ Same as Lutris, but
 - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
 - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
 - After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
-- From there, select winetricks and install `faudio, corefonts` or, if you're using bash with a simple `winetricks corefonts faudio`. Make sure to install visual C++ as well.
 - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
 - Go into the KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
 - Now, if everything is set accordingly (from the game's settings you've selected ProtonGE or Wine Lutris to use, or in the other section you've put all the things you need) it should start right after pressing the green button. Enjoy!
