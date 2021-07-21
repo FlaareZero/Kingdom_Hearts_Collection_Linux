@@ -14,7 +14,7 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 - [MF-Install](https://github.com/z0z0z/mf-install) (it's needed for KH3 only)(git clone it somewhere on your system)
 - DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris or Proton/ProtonGE, it's built-in) / Visual C++ 2015 - 2019 X86 and X64
 - Winetricks installed 
-- If you've installed faudio, or any audio dll from winetricks, make sure to use a clean Wine Lutris or Wine / Proton runner. If you did, and you've got no audio, [click here to know how to fix that issue ( thanks to xlash123 for letting me know, I completely forgot to quote him here as well](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/1)
+- If you've installed faudio, or any audio dll from winetricks, make sure to use a clean Wine Lutris or Wine / Proton runner. If you did, and you've got no audio, [click here to know how to fix that issue ( thanks to xlash123 for letting me know, I completely forgot to quote him here as well)](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/1)
 
 You can also use the provided one, but make sure to enable ESync, if the Distro you're using supports it [Here for more info](https://github.com/lutris/docs/blob/master/HowToEsync.md)
 
