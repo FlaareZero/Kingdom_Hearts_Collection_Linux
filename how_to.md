@@ -58,7 +58,6 @@ WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install w
 - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 
 ## Kingdom Hearts 2.8 - Heroic Games Launcher
-WARNING: I HAVEN'T TESTED THIS VERSION MYSELF, SO I DUNNO IF IT'S GONNA WORK. IN CASE IT DOESN'T, USE THE LUTRIS VERSION WITHOUT ISSUES!
 
 WARNING: If you've already installed KH3 using Heroic Games, reinstalling mf-install won't be needed since they are already installed, and will be used unless you go for another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
@@ -89,8 +88,6 @@ WARNING: If you've already installed KH3 using Lutris as above, mf-install and m
 - If you wanna close it, simply re-open Lutris and press stop, and it'll simply close the game.
 
 ## Kingdom Hearts 1.5 + 2.5 - Heroic Games Version
-
-WARNING: I HAVEN'T TESTED THIS VERSION MYSELF, SO I DUNNO IF IT'S GONNA WORK. IN CASE IT DOESN'T, USE THE LUTRIS VERSION WITHOUT ISSUES!
 
 WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be needed, unless you use another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
