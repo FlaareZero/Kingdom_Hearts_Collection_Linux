@@ -47,8 +47,6 @@ For the repacked version, we're gonna use Lutris.
 
 WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step again!
 
-EDIT: Audio stopped working for me after a full format. I dunno exactly what caused it. If the following guide works 100% for you, with audio as well, please let me know the prerequisites you have on your prefix (if using Lutris Wine), just so I can add them into the prerequisites section. Thank you! <3
-
 - Download the X version from whatever place you want
 - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
 - From lutris, click on `Wine - Manage Versions` and download the latest version from Wine-Manage runners. Then, you're gonna create multiple bottles, for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
