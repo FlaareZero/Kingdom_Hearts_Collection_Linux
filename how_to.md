@@ -67,7 +67,7 @@ Same as Lutris, but
 - After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
 - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
 - Go into the KH2.8's folder, and rename the EPIC folder in EPIC.bak
-- Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [@xlash123's script](https://gist.github.com/xlash123/74e8671848d0c13920e182af96945ba5) as stated [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) to make it work. The process is, tho, very similar to Lutris, so it's not that difficult to perform. Thanks a million to him!
+- Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [the forked version of @xlash123's script](https://gist.github.com/FlaareZero/602123849438e6f8ce5831fc3030cae6) that contains the support for KH2.8 [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) to make it work. The original author (@xlash123) didn't yet added the support for KH2.8, so, I've added it myself for the time. The process is, tho, very similar to Lutris, so it's not that difficult to perform. Thanks a million to him!
 
 ## Kingdom Hearts 1-5 + 2.5 - Lutris Version
 
