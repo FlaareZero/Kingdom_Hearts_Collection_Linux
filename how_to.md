@@ -8,7 +8,7 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
 - Lutris - In case you're using the Repacked version (Also Steam will make the game just fine, see below)
 - Heroic Games Launcher - In case you own a copy of the game
-- In case you're using Lutris - Wine: ((Lutris 6.4 (For KH3))[https://github.com/lutris/wine/releases/tag/lutris-6.4] is currently the only one that's working on Lutris, and 6.10-2 and above (F-shack too) are the recommended and known to work that you can easily grab from Lutris itself.
+- In case you're using Lutris - Wine: [(Lutris 6.4 (For KH3)](https://github.com/lutris/wine/releases/tag/lutris-6.4) is currently the only one that's working on Lutris, and 6.10-2 and above (F-shack too) are the recommended and known to work that you can easily grab from Lutris itself.
 (For Legendary or Heroic Games Launcher, ProtonGE works perfectly fine, although you can use the 2 versions mentioned above as well. Oh, and for KH3, you will only need to use the Proton 5.13-6 version. Any other version won't make the game start after the copyright section)
 - A custom kernel - For better performances and reliability 
 (For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using, and for a non Ubuntu LTS go with the standard XanMod)(For Arch, Zen Kernel. Manjaro ships by default with an FSync-enabled Kernel)(Fedora, the stock one is pretty good actually)
