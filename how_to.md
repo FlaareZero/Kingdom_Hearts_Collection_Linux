@@ -6,13 +6,13 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 
 ## Prerequisites:
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
-- Lutris - In case you're using the Repacked version 
+- Lutris - In case you're using the Repacked version (Also Steam will make the game just fine, see below)
 - Heroic Games Launcher - In case you own a copy of the game
-- In case you're using Lutris - Wine: (Lutris 6.4 (For KH3))[https://github.com/lutris/wine/releases/tag/lutris-6.4] is currently the only one that's working on Lutris, and 6.10-2 and above (F-shack too) are the recommended and known to work that you can easily grab from Lutris itself.
-(For Legendary or Heroic Games Launcher, ProtonGE works perfectly fine, although you can use the 2 versions mentioned above as well)
+- In case you're using Lutris - Wine: ((Lutris 6.4 (For KH3))[https://github.com/lutris/wine/releases/tag/lutris-6.4] is currently the only one that's working on Lutris, and 6.10-2 and above (F-shack too) are the recommended and known to work that you can easily grab from Lutris itself.
+(For Legendary or Heroic Games Launcher, ProtonGE works perfectly fine, although you can use the 2 versions mentioned above as well. Oh, and for KH3, you will only need to use the Proton 5.13-6 version. Any other version won't make the game start after the copyright section)
 - A custom kernel - For better performances and reliability 
 (For Ubuntu LTS I suggest XanMod LTS, which is the one I'm using, and for a non Ubuntu LTS go with the standard XanMod)(For Arch, Zen Kernel. Manjaro ships by default with an FSync-enabled Kernel)(Fedora, the stock one is pretty good actually)
-- [MF-Install](https://github.com/z0z0z/mf-install) (it's needed for KH3 only)(git clone it somewhere on your system)
+- [MF-Install](https://github.com/z0z0z/mf-install) (it's needed for KH3 only and if you wanna use Lutris instead of Steam / Heroic)(git clone it somewhere on your system)
 - DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris or Proton/ProtonGE, it's built-in) / Visual C++ 2015 - 2019 X86 and X64
 - Winetricks installed 
 - If you've installed faudio, or any audio dll from winetricks, make sure to use a clean Wine Lutris or Wine / Proton runner. If you did, and you've got no audio, [click here to know how to fix that issue ( thanks to xlash123 for letting me know, I completely forgot to quote him here as well)](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/1)
@@ -40,8 +40,18 @@ For the repacked version, we're gonna use Lutris.
 - Same as Lutris, but
 - Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
 - For downloading it, I suggest either [build it from Valve's Github page](https://github.com/ValveSoftware/Proton/tree/experimental_5.13) or downloading it via Steam, and then point it to Heroic with the step next to this one.
-- After you have both the game and Proton downloaded, click the gear next to the game, and select the Proton 5.13 version you've downloaded from the settings - custom wine/proton by clicking the + button, and point it to Proton's folder, then the proton file.
+- After you have both the game and Proton downloaded, click the gear next to the game, and select the Proton 5.13-6 version you've downloaded from the settings - custom wine/proton by clicking the + button, and point it to Proton's folder, then the proton file.
 - Now, if everything is set accordingly (from the game's settings you've selected Proton, or in the other section you've put all the things you need, like Prime Offload etc.) it should start right after pressing the green button. Enjoy!
+
+You can Also apply the same principle for Steam as well, how to do it?
+
+- Make sure to have Proton 5.13-6 up and running via Steam (if you downloaded from Heroic, make sure to copy its folder (it should be called Proton-5.3) into `~/.steam/steam/steamapps/common`.
+- Install the game using a local Wine build (or you could also use Lutris if you want) wherever you like
+- Add a non-steam game, and point it to the `KINGDOM HEARTS III.exe`
+- Click the gear, properties and reselect the .exe (also, make sure to remove everything from the launch options)
+- On the Compatibility menu, Force the use of Proton 5.13-6 from the menu selector
+- Done! Enjoy! 
+
 
 ## Kingdom Hearts 2.8 - Lutris
 
