@@ -45,11 +45,15 @@ For the repacked version, we're gonna use Lutris.
 
 You can Also apply the same principle for Steam as well, how to do it?
 
+## Kingdom Hearts III - Steam!
+
 - Make sure to have Proton 5.13-6 up and running via Steam (if you downloaded from Heroic, make sure to copy its folder (it should be called Proton-5.3) into `~/.steam/steam/steamapps/common`.
 - Install the game using a local Wine build (or you could also use Lutris if you want) wherever you like
 - Add a non-steam game, and point it to the `KINGDOM HEARTS III.exe`
 - Click the gear, properties and reselect the .exe (also, make sure to remove everything from the launch options)
 - On the Compatibility menu, Force the use of Proton 5.13-6 from the menu selector
+- FOR NVIDIA OPTIMUS USERS! Proton 5.13 has this weird thing that doesn't load the icd from the dGPU, but rather uses the iGPU icd, resulting in very poor perforance. You do wanna just go over `/usr/share/vulkan/` and move all the icd's inside but the nvidia's out on another folder. Thank me later (more info about it on this post over reddit [here](https://www.reddit.com/r/SteamPlay/comments/jkj0yk/proton_513_games_dont_run_on_the_gpu_but_on_the/gak4dev/)
+- Also, as of yet, the game has a few shutters under Wayland. You wanna keep using X11 for the time being :P
 - Done! Enjoy! 
 
 
