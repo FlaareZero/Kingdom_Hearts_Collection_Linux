@@ -30,7 +30,7 @@ For the sake of order, I'm gonna divide all the sections for each game.
 For the repacked version, we're gonna use Lutris.
 
    ## Kingdom Hearts 3 - Lutris
-      - Download the X version from whatever place you want
+   - Download the X version from whatever place you want
       - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
       - Download Lutris from the official repository 
       - Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
