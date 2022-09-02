@@ -123,7 +123,7 @@ WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be
   - Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [@xlash123's script](https://gist.github.com/xlash123/74e8671848d0c13920e182af96945ba5) as stated [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837),Thanks a million to him!
   - How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
 
- #Little proofs for you all:
+ Little proofs for you all:
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
 
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-20_18-24-26.jpg)
@@ -131,7 +131,8 @@ WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo-2021-06-04-14-42-56.jpg)
 
 
- #Installing Re-Fixer (Highly Recommended)
+
+#Installing Re-Fixer (Highly Recommended)
 
 - As of [the 3.00 release](https://github.com/TopazTK/KH-ReFined/releases/tag/v3.00) we can almost improve the original game with a lot more options than before, but for us Linux users it might be tricky to do just that. You'll rely on either another Windows pc or you can just fire up a VM and manually pushing the files from your main Linux machine to the VM, patching everything up and then re-exporting them up on the host.
 Also, you can just follow the project's guide if you intend to go on one of the two ways. Also, if you patch the game before running Linux on your host pc, that'll work as well :)
