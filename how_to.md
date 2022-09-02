@@ -22,6 +22,8 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 - DXVK (for KH3) / Corefonts / DXVKD3D (for everything else)(If you use Wine Lutris or Proton/ProtonGE, it's built-in) / Visual C++ 2015 - 2019 X86 and X64
 - Winetricks installed 
 - If you've installed faudio, or any audio dll from winetricks, make sure to use a clean Wine Lutris or Wine / Proton runner. If you did, and you've got no audio, [click here to know how to fix that issue ( thanks to xlash123 for letting me know, I completely forgot to quote him here as well)](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/1)
+- As of [the 3.00 release](https://github.com/TopazTK/KH-ReFined/releases/tag/v3.00) we can almost improve the original game with a lot more options than before, but for us Linux users it might be tricky to do just that. You'll rely on either another Windows pc or you can just fire up a VM and manually pushing the files from your main Linux machine to the VM, patching everything up and then re-exporting them up on the host.
+Also, you can just follow the project's guide if you intend to go on one of the two ways. Also, if you patch the game before running Linux on your host pc, that'll work as well :)
 
 You can also use the provided one, but make sure to enable ESync, if the Distro you're using supports it [Here for more info](https://github.com/lutris/docs/blob/master/HowToEsync.md)
 
@@ -129,10 +131,3 @@ WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-20_18-24-26.jpg)
 
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo-2021-06-04-14-42-56.jpg)
-
-
-
-#Installing Re-Fixer (Highly Recommended)
-
-- As of [the 3.00 release](https://github.com/TopazTK/KH-ReFined/releases/tag/v3.00) we can almost improve the original game with a lot more options than before, but for us Linux users it might be tricky to do just that. You'll rely on either another Windows pc or you can just fire up a VM and manually pushing the files from your main Linux machine to the VM, patching everything up and then re-exporting them up on the host.
-Also, you can just follow the project's guide if you intend to go on one of the two ways. Also, if you patch the game before running Linux on your host pc, that'll work as well :)
