@@ -6,9 +6,9 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 
 ## Index of the Elements
 
-- [Prerequisites](##Prerequisites);
-- [Installing](##Installing) for:
-  - [Kingdom Hearts III (Lutris)](##Kingdom_Hearts_3_-_Lutris) or [Kingdom Hearts III (Heroic Games)](##Kingdom_Hearts_III_-_Heroic)
+- [Prerequisites](#Prerequisites);
+- [Installing](#Installing) for:
+  - [Kingdom Hearts III (Lutris)](##Kingdom_Hearts_3_-_Lutris) or [Kingdom Hearts III (Heroic Games)](#Kingdom_Hearts_III_-_Heroic)
 
 ## Prerequisites:
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
@@ -29,19 +29,19 @@ You can also use the provided one, but make sure to enable ESync, if the Distro 
 For the sake of order, I'm gonna divide all the sections for each game.
 For the repacked version, we're gonna use Lutris.
 
-## Kingdom Hearts 3 - Lutris
-- Download the X version from whatever place you want
-- Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
-- Download Lutris from the official repository 
-- Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
-- Open Lutris the first time via terminal, by digiting `lutris -d`. If you have a good internet connection, it should take something like 2 minutes to open. If for some reason, you see errors bumping out, simply close it by pressing `ctrl+c` and reopen it again.
-- Now, click on the + Button and set up the game by simply putting the name, the date of releasing (optional). In the wine version, set the 6.4 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
-- Now, on your new created bottle, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
-- When it finishes, you're gonna open up a bash terminal using the arrow next to the bottle icon, and put yourself in the mf-install folder. Then, simply run `./mf-install.sh` and it'll take care of that. Afterwards, type `winetricks corefonts faudio`
-- After it finishes, close the window. Now you're gonna select KH3 and click "Configure", and there, in the Game options, point the executable to `KINGDOM HEARTS III.exe` is, then, in working directory, select the Win64 folder that contains the exe.
-- Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
+    - ## Kingdom Hearts 3 - Lutris
+      - Download the X version from whatever place you want
+      - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
+      - Download Lutris from the official repository 
+      - Download the 6.4 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
+      - Open Lutris the first time via terminal, by digiting `lutris -d`. If you have a good internet connection, it should take something like 2 minutes to open. If for some reason, you see errors bumping out, simply close it by pressing `ctrl+c` and reopen it again.
+      - Now, click on the + Button and set up the game by simply putting the name, the date of releasing (optional). In the wine version, set the 6.4 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
+      - Now, on your new created bottle, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
+       - When it finishes, you're gonna open up a bash terminal using the arrow next to the bottle icon, and put yourself in the mf-install folder. Then, simply run `./mf-install.sh` and it'll take care of that. Afterwards, type `winetricks corefonts faudio`
+      - After it finishes, close the window. Now you're gonna select KH3 and click "Configure", and there, in the Game options, point the executable to `KINGDOM HEARTS III.exe` is, then, in working directory, select the Win64 folder that contains the exe.
+      - Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
 
-- EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
+      - EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
 
 ## Kingdom Hearts III - Heroic 
 
