@@ -70,58 +70,58 @@ For the repacked version, we're gonna use Lutris.
 WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step again!
 
 - Download the X version from whatever place you want
-- Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
-- From lutris, click on `Wine - Manage Versions` and download the latest version from Wine-Manage runners. Then, you're gonna create multiple bottles, for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
-- Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
-- (To do only once) Install mf-install as for KH3 in the same way.
-- go on KH2.8's folder, and rename the EPIC folder in EPIC.bak
-- From Lutris, you're gonna select Kingdom Hearts 2.8 from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of one of the three available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/KINGDOM HEARTS 0.2 Birth by Sleep/Binaries/Win64/KINGDOM HEARTS 0.2 Birth by Sleep.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
-- Do the exact same above steps for Dream Drop Distance except mf-install (since you're gonna use the same Wine version anyways)
-- When you wanna game, simply click on the game you want, and click play. Then, enjoy!
+  - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
+  - From lutris, click on `Wine - Manage Versions` and download the latest version from Wine-Manage runners. Then, you're gonna create multiple bottles, for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
+  - Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
+  - (To do only once) Install mf-install as for KH3 in the same way.
+  - go on KH2.8's folder, and rename the EPIC folder in EPIC.bak
+  - From Lutris, you're gonna select Kingdom Hearts 2.8 from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of  one of the three available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/KINGDOM HEARTS 0.2 Birth by Sleep/Binaries/Win64/KINGDOM HEARTS 0.2 Birth by Sleep.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
+  - Do the exact same above steps for Dream Drop Distance except mf-install (since you're gonna use the same Wine version anyways)
+  - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 
 ## Kingdom Hearts 2.8 - Heroic Games Launcher
 
 WARNING: If you've already installed KH3 using Heroic Games, reinstalling mf-install won't be needed since they are already installed, and will be used unless you go for another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
-Same as Lutris, but
-- Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
-- (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
-- After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
-- For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
-- Go into the KH2.8's folder, and rename the EPIC folder in EPIC.bak
-- Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [the forked version of @xlash123's script](https://gist.github.com/FlaareZero/602123849438e6f8ce5831fc3030cae6) that contains the support for KH2.8 ([here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837)) to make it work. The original author (@xlash123) didn't yet added the support for KH2.8, so, I've added it myself for the time. Thanks a million to him!
-- How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
+- Same as Lutris, but
+  - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
+  - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
+  - After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
+  - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
+  - Go into the KH2.8's folder, and rename the EPIC folder in EPIC.bak
+  - Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [the forked version of @xlash123's script](https://gist.github.com/FlaareZero/602123849438e6f8ce5831fc3030cae6) that contains the support for KH2.8 ([here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837)) to make it work. The original author (@xlash123) didn't yet added the support for KH2.8, so, I've added it myself for the time. Thanks a million to him!
+  - How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
 
 ## Kingdom Hearts 1-5 + 2.5 - Lutris Version
 
 WARNING: If you've already installed KH3 using Lutris, mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step everytime!
 
 - Download the X version from whatever place you want
-- Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
-- From lutris, click on `Wine - Manage Versions` and download the 6.10-2. Then, you're gonna create a new game instance, one for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
-- Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
+  - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
+  - From lutris, click on `Wine - Manage Versions` and download the 6.10-2. Then, you're gonna create a new game instance, one for each releases of the game. Set the name, the date of releasing (optional). In the wine version, set the 6.10-2 that should appear, and in the runner settings, make sure to enable either `ESync` or `FSync` (both will result in using FSync only, so, only one choice guys). Now, in the system options, enable PRIME Render Offload (if you're using a Laptop with Hybrid support), or leave it as is if you run in Dedicated Graphics only.
+  - Afterwards, select the arrow next to the bottle button and select `Run EXE inside WinePrefix`, and point it at the setup of your repack. Install wherever you like. It should also ask you to install Visual C++. If it doesn't, install those manually.
 
 WARNING: If you've already installed KH3 using Lutris as above, mf-install and most steps won't be needed, unless you use another Wine Lutris version. In that case, you have to redo it again!
 
-- (No need if you've already done it, as per the Warning) Install mf-install as for KH3 in the same way.
-- Go on KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
-- From Lutris, you're gonna select Kingdom Hearts 1.5+2.5 (or the lutris configuration that you've given it) from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of the available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/Kingdom Hearts HD 1.5 + 2.5 ReMIX/Kingdom Hearts FINAL MIX.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
-- Do the exact same above steps for all the other games, creating the bottle and configuring like the above.
-- When you wanna game, simply click on the game you want, and click play. Then, enjoy!
-- If you wanna close it, simply re-open Lutris and press stop, and it'll simply close the game.
+  - (No need if you've already done it, as per the Warning) Install mf-install as for KH3 in the same way.
+  - Go on KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
+  - From Lutris, you're gonna select Kingdom Hearts 1.5+2.5 (or the lutris configuration that you've given it) from lutris and click "Configure", and there, in the Game options, point the executable to one of the exe's of the available games (for example, for now, I'm gonna point it at `/your/folder/where/the/game/is/Kingdom Hearts HD 1.5 + 2.5 ReMIX/Kingdom Hearts FINAL MIX.exe` is, then, in working directory, select the Win64 folder that contains the exe. 
+  - Do the exact same above steps for all the other games, creating the bottle and configuring like the above.
+  - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
+  - If you wanna close it, simply re-open Lutris and press stop, and it'll simply close the game.
 
 ## Kingdom Hearts 1.5 + 2.5 - Heroic Games Version
 
 WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be needed, unless you use another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
-Same as Lutris, but
-- Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
-- (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
-- After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
-- For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
-- Go into the KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
-- Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [@xlash123's script](https://gist.github.com/xlash123/74e8671848d0c13920e182af96945ba5) as stated [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837),Thanks a million to him!
-- How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
+- Same as Lutris, but
+  - Download the game from the library itself and also, Download the 6.10-2 Lutris wine and put it in `/your/name/.local/share/lutris/runners/wine/`
+  - (You can also decide to use ProtonGE instead of Wine Lutris, so, link [here](https://github.com/GloriousEggroll/proton-ge-custom)).
+  - After it downloads, click the gear next to the game, and select the wine version you've downloaded (or, if you're using ProtonGE, point that to the proton file)
+  - For mf-install, open up the terminal, go into its folder, and type `WINEPREFIX="/your/path/to/wheretheprefixfolderis" ./mf-install.sh` (if you use protonGE, the prefix is somewhere else, like `<steamdir>/SteamApps/compatdata/something/pfx`)
+  - Go into the KH1.5+2.5's folder, and rename the EPIC folder in EPIC.bak
+  - Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [@xlash123's script](https://gist.github.com/xlash123/74e8671848d0c13920e182af96945ba5) as stated [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837),Thanks a million to him!
+  - How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
 
 ##Little proofs for you all:
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
