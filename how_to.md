@@ -7,8 +7,10 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 ## Index of the Elements
 
 - [Prerequisites](#Prerequisites);
-- [Installing](#Installing) for:
-  - [Kingdom Hearts III (Lutris)](##Kingdom_Hearts_3_-_Lutris) or [Kingdom Hearts III (Heroic Games)](#Kingdom_Hearts_III_-_Heroic)
+- [Installing](#Installing):
+  - [Kingdom Hearts III (Lutris)](#KH3-Lutris) or [Kingdom Hearts III (Heroic Games)](#KH3-Heroic) or [Kingdom Hearts III(Steam)](#KH3-Steam)
+  - [Kingdom Hearts 2.8(Lutris)](#KH2.8-Lutris) or [Kingdom Hearts 2.8(Heroic)](#KH2.8-Heroic)
+  - [Kingdom Hearts 1.5+2.5(Lutris)](KH1.5+2.5-Lutris) or [Kingdom Hearts 1.5+2.5(Heroic)](KH1.5+2.5-Heroic)
 
 # Prerequisites:
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
@@ -31,7 +33,7 @@ You can also use the provided one, but make sure to enable ESync, if the Distro 
 For the sake of order, I'm gonna divide all the sections for each game.
 For the repacked version, we're gonna use Lutris.
 
-   # Kingdom Hearts 3 - Lutris
+   # KH3-Lutris
    - Download the X version from whatever place you want
       - Put it everywhere you want and unzip it somewhere. You should have the folder with the various .bin and the setup.exe ready to go
       - Download Lutris from the official repository 
@@ -45,7 +47,7 @@ For the repacked version, we're gonna use Lutris.
 
       - EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
 
-   # Kingdom Hearts III - Heroic 
+   # KH3-Heroic 
 
    - Same as Lutris, but
       - Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
@@ -55,7 +57,7 @@ For the repacked version, we're gonna use Lutris.
 
       You can Also apply the same principle for Steam as well, how to do it?
 
-   # Kingdom Hearts III - Steam!
+   # KH3-Steam!
 
    - Make sure to have Proton 5.13-6 up and running via Steam (if you downloaded from Heroic, make sure to copy its folder (it should be called Proton-5.3) into `~/.steam/steam/steamapps/common`.
    - Install the game using a local Wine build (or you could also use Lutris if you want) wherever you like
@@ -67,7 +69,7 @@ For the repacked version, we're gonna use Lutris.
    - Done! Enjoy! 
 
 
-# Kingdom Hearts 2.8 - Lutris
+# KH2.8-Lutris
 
 WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step again!
 
@@ -81,7 +83,7 @@ WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install w
   - Do the exact same above steps for Dream Drop Distance except mf-install (since you're gonna use the same Wine version anyways)
   - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 
-# Kingdom Hearts 2.8 - Heroic Games Launcher
+# KH2.8-Heroic
 
 WARNING: If you've already installed KH3 using Heroic Games, reinstalling mf-install won't be needed since they are already installed, and will be used unless you go for another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
@@ -94,7 +96,7 @@ WARNING: If you've already installed KH3 using Heroic Games, reinstalling mf-ins
   - Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [the forked version of @xlash123's script](https://gist.github.com/FlaareZero/602123849438e6f8ce5831fc3030cae6) that contains the support for KH2.8 ([here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837)) to make it work. The original author (@xlash123) didn't yet added the support for KH2.8, so, I've added it myself for the time. Thanks a million to him!
   - How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
 
-# Kingdom Hearts 1-5 + 2.5 - Lutris Version
+# KH1.5+2.5-Lutris
 
 WARNING: If you've already installed KH3 using Lutris, mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step everytime!
 
@@ -112,7 +114,7 @@ WARNING: If you've already installed KH3 using Lutris as above, mf-install and m
   - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
   - If you wanna close it, simply re-open Lutris and press stop, and it'll simply close the game.
 
-# Kingdom Hearts 1.5 + 2.5 - Heroic Games Version
+# KH1.5+2.5-Heroic
 
 WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be needed, unless you use another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
