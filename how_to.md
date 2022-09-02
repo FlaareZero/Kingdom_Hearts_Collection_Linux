@@ -69,7 +69,7 @@ For the repacked version, we're gonna use Lutris.
    - Done! Enjoy! 
 
 
-# KH2.8-Lutris
+  # KH2.8-Lutris
 
 WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step again!
 
@@ -83,7 +83,7 @@ WARNING: If you've already installed KH3 using Lutris, reinstalling mf-install w
   - Do the exact same above steps for Dream Drop Distance except mf-install (since you're gonna use the same Wine version anyways)
   - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
 
-# KH2.8-Heroic
+  # KH2.8-Heroic
 
 WARNING: If you've already installed KH3 using Heroic Games, reinstalling mf-install won't be needed since they are already installed, and will be used unless you go for another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
@@ -96,7 +96,7 @@ WARNING: If you've already installed KH3 using Heroic Games, reinstalling mf-ins
   - Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [the forked version of @xlash123's script](https://gist.github.com/FlaareZero/602123849438e6f8ce5831fc3030cae6) that contains the support for KH2.8 ([here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837)) to make it work. The original author (@xlash123) didn't yet added the support for KH2.8, so, I've added it myself for the time. Thanks a million to him!
   - How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
 
-# KH1.5+2.5-Lutris
+  # KH1.5+2.5-Lutris
 
 WARNING: If you've already installed KH3 using Lutris, mf-install won't be needed, unless you use another Wine Lutris version. In that case, you have to redo the mf-install step everytime!
 
@@ -114,7 +114,7 @@ WARNING: If you've already installed KH3 using Lutris as above, mf-install and m
   - When you wanna game, simply click on the game you want, and click play. Then, enjoy!
   - If you wanna close it, simply re-open Lutris and press stop, and it'll simply close the game.
 
-# KH1.5+2.5-Heroic
+  # KH1.5+2.5-Heroic
 
 WARNING: If you've already installed KH3 using Heroic Games, mf-install won't be needed, unless you use another Wine Lutris version / ProtonGE. In that case, you have to redo it again!
 
