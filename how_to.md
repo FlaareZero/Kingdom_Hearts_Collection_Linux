@@ -9,8 +9,8 @@ ALSO, the content of this how_to is for educational purposes only, in order to g
 - [Prerequisites](#Prerequisites);
 - [Installing](#Installing):
   - [Kingdom Hearts III (Lutris)](#KH3-Lutris) or [Kingdom Hearts III (Heroic Games)](#KH3-Heroic) or [Kingdom Hearts III(Steam)](#KH3-Steam)
-  - [Kingdom Hearts 2.8(Lutris)](#KH2.8-Lutris) or [Kingdom Hearts 2.8(Heroic)](#KH2.8-Heroic)
-  - [Kingdom Hearts 1.5+2.5(Lutris)](KH1.5+2.5-Lutris) or [Kingdom Hearts 1.5+2.5(Heroic)](KH1.5+2.5-Heroic)
+  - [Kingdom Hearts 2.8(Lutris)](# KH2.8-Lutris) or [Kingdom Hearts 2.8(Heroic)](# KH2.8-Heroic)
+  - [Kingdom Hearts 1.5+2.5(Lutris)](# KH1.5+2.5-Lutris) or [Kingdom Hearts 1.5+2.5(Heroic)](# KH1.5+2.5-Heroic)
 
 # Prerequisites:
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
