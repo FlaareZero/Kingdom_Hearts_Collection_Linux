@@ -4,6 +4,7 @@ WARNING: I'm using a repacked copy of Kingdom Hearts 1.5+2.5, 2.8 and Kingdom He
 I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and follow the guide by using Heroic Games Launcher as a All-in-One solution. Your choice.
 ALSO, the content of this how_to is for educational purposes only, in order to give people a reliable and written way to play their favourite games surely on Linux. Feel free to take the guide, modify it and fork it in order to add more stuff into it if you ever wish to do so!
 
+
 ## Prerequisites:
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
 - Lutris - In case you're using the Repacked version (Also Steam will make the game just fine, see below)
@@ -35,6 +36,7 @@ For the repacked version, we're gonna use Lutris.
 - After it finishes, close the window. Now you're gonna select KH3 and click "Configure", and there, in the Game options, point the executable to `KINGDOM HEARTS III.exe` is, then, in working directory, select the Win64 folder that contains the exe.
 - Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
 
+- EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
 ## Kingdom Hearts III - Heroic Games Launcher
 
 - Same as Lutris, but
@@ -115,10 +117,15 @@ Same as Lutris, but
 - Since Wine can't handle the transitions between cutscenes launcher and the game yet (thanks to the switching between DX11 and DX12), you'll have to grab [@xlash123's script](https://gist.github.com/xlash123/74e8671848d0c13920e182af96945ba5) as stated [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837),Thanks a million to him!
 - How the script works and wanna know more? [here for more info](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837). But the Author inserted everything you need on the script as well. Simply follow the comments marked with # inside, and after you've setup everything, make the script executable (by opening up a terminal where the script is, and execute `sudo chmod +x kh-1.5.sh`) and then run it (always from the terminal, `./kh-1.5.sh`).
 
-Little proofs for you all:
+##Little proofs for you all:
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
 
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-20_18-24-26.jpg)
 
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo-2021-06-04-14-42-56.jpg)
 
+
+##Installing Re-Fixer (Highly Recommended)
+
+- As of [the 3.00 release](https://github.com/TopazTK/KH-ReFined/releases/tag/v3.00) we can almost improve the original game with a lot more options than before, but for us Linux users it might be tricky to do just that. You'll rely on either another Windows pc or you can just fire up a VM and manually pushing the files from your main Linux machine to the VM, patching everything up and then re-exporting them up on the host.
+Also, you can just follow the project's guide if you intend to go on one of the two ways. Also, if you patch the game before running Linux on your host pc, that'll work as well :)
