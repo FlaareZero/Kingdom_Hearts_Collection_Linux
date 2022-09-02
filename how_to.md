@@ -43,26 +43,26 @@ For the repacked version, we're gonna use Lutris.
 
       - EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
 
-## Kingdom Hearts III - Heroic 
+   ## Kingdom Hearts III - Heroic 
 
-- Same as Lutris, but
-- Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
-- For downloading it, I suggest either [build it from Valve's Github page](https://github.com/ValveSoftware/Proton/tree/experimental_5.13) or downloading it via Steam, and then point it to Heroic with the step next to this one.
-- After you have both the game and Proton downloaded, click the gear next to the game, and select the Proton 5.13-6 version you've downloaded from the settings - custom wine/proton by clicking the + button, and point it to Proton's folder, then the proton file.
-- Now, if everything is set accordingly (from the game's settings you've selected Proton, or in the other section you've put all the things you need, like Prime Offload etc.) it should start right after pressing the green button. Enjoy!
+   - Same as Lutris, but
+      - Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
+      - For downloading it, I suggest either [build it from Valve's Github page](https://github.com/ValveSoftware/Proton/tree/experimental_5.13) or downloading it via Steam, and then point it to Heroic with the step next to this one.
+      - After you have both the game and Proton downloaded, click the gear next to the game, and select the Proton 5.13-6 version you've downloaded from the settings - custom wine/proton by clicking the + button, and point it to Proton's folder, then the proton file.
+      - Now, if everything is set accordingly (from the game's settings you've selected Proton, or in the other section you've put all the things you need, like Prime Offload etc.) it should start right after pressing the green button. Enjoy!
 
-You can Also apply the same principle for Steam as well, how to do it?
+      You can Also apply the same principle for Steam as well, how to do it?
 
-## Kingdom Hearts III - Steam!
+   ## Kingdom Hearts III - Steam!
 
-- Make sure to have Proton 5.13-6 up and running via Steam (if you downloaded from Heroic, make sure to copy its folder (it should be called Proton-5.3) into `~/.steam/steam/steamapps/common`.
-- Install the game using a local Wine build (or you could also use Lutris if you want) wherever you like
-- Add a non-steam game, and point it to the `KINGDOM HEARTS III.exe`
-- Click the gear, properties and reselect the .exe (also, make sure to remove everything from the launch options)
-- On the Compatibility menu, Force the use of Proton 5.13-6 from the menu selector
-- FOR NVIDIA OPTIMUS USERS! Proton 5.13 has this weird thing that doesn't load the icd from the dGPU, but rather uses the iGPU icd, resulting in very poor performance. You do wanna just go over `/usr/share/vulkan/` and move all the icd's inside but the nvidia's out on another folder. Thank me later (more info about it on this post over reddit [here](https://www.reddit.com/r/SteamPlay/comments/jkj0yk/proton_513_games_dont_run_on_the_gpu_but_on_the/gak4dev/))
-- Also, as of yet, the game has a few shutters under Wayland. You wanna keep using X11 for the time being :P
-- Done! Enjoy! 
+   - Make sure to have Proton 5.13-6 up and running via Steam (if you downloaded from Heroic, make sure to copy its folder (it should be called Proton-5.3) into `~/.steam/steam/steamapps/common`.
+   - Install the game using a local Wine build (or you could also use Lutris if you want) wherever you like
+   - Add a non-steam game, and point it to the `KINGDOM HEARTS III.exe`
+   - Click the gear, properties and reselect the .exe (also, make sure to remove everything from the launch options)
+   - On the Compatibility menu, Force the use of Proton 5.13-6 from the menu selector
+   - FOR NVIDIA OPTIMUS USERS! Proton 5.13 has this weird thing that doesn't load the icd from the dGPU, but rather uses the iGPU icd, resulting in very poor performance. You do wanna just go over `/usr/share/vulkan/` and move all the icd's inside but the nvidia's out on another folder. Thank me later (more info about it on this post over reddit [here](https://www.reddit.com/r/SteamPlay/comments/jkj0yk/proton_513_games_dont_run_on_the_gpu_but_on_the/gak4dev/))
+   - Also, as of yet, the game has a few shutters under Wayland. You wanna keep using X11 for the time being :P
+   - Done! Enjoy! 
 
 
 ## Kingdom Hearts 2.8 - Lutris
