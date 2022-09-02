@@ -4,6 +4,11 @@ WARNING: I'm using a repacked copy of Kingdom Hearts 1.5+2.5, 2.8 and Kingdom He
 I STRONGLY ADVISE YOU to buy the original game from the Epic Games Store, and follow the guide by using Heroic Games Launcher as a All-in-One solution. Your choice.
 ALSO, the content of this how_to is for educational purposes only, in order to give people a reliable and written way to play their favourite games surely on Linux. Feel free to take the guide, modify it and fork it in order to add more stuff into it if you ever wish to do so!
 
+## Index of the Elements
+
+- [Prerequisites](##Prerequisites);
+- [Installing](##Installing) for:
+  - [Kingdom Hearts III (Lutris)](##Kingdom_Hearts_3_-_Lutris) or [Kingdom Hearts III (Heroic Games)](##Kingdom_Hearts_III_-_Heroic)
 
 ## Prerequisites:
 - UPDATE: Since Lutris now supports Epic Games Store by default on the latest beta, you might want to try the same method of Legendary posted by @xlash123 [here](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/2#issuecomment-890655837) on there, too.
@@ -37,7 +42,8 @@ For the repacked version, we're gonna use Lutris.
 - Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
 
 - EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
-## Kingdom Hearts III - Heroic Games Launcher
+
+## Kingdom Hearts III - Heroic 
 
 - Same as Lutris, but
 - Download the game from the library itself. It has been confirmed that Proton 5.13 simply runs the game completely fine without issues and needing to setup everything post-install, thanks to @xlash123 for reporting!)
