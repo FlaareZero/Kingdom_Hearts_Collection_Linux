@@ -68,7 +68,7 @@ For the repacked version, we're gonna use Lutris.
 
    # KH3-Bottles
     
-    Since [this issue](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/7) got to my attention, it is possible to install KH3 using Bottles as well, if you don't intend to use neither Lutris nor Steam. I suspect you could also install all of the other KH Titles as well using it, but I haven't tried it myself yet. Feel free to let me know though!
+   Since [this issue](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/7) got to my attention, it is possible to install KH3 using Bottles as well, if you don't intend to use neither Lutris nor Steam. I suspect you could also install all of the other KH Titles as well using it, but I haven't tried it myself yet. Feel free to let me know though!
 
 The script (assuming you're using the Flatpak version of Bottles on your Linux Machine / Steam Deck) is the following:
 `#!/bin/bash
