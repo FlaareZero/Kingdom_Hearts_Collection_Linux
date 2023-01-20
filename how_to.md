@@ -45,8 +45,6 @@ For the repacked version, we're gonna use Lutris.
       - After it finishes, close the window. Now you're gonna select KH3 and click "Configure", and there, in the Game options, point the executable to `KINGDOM HEARTS III.exe` is, then, in working directory, select the Win64 folder that contains the exe.
       - Test it out, it should work. Controllers like the Dualshock 4 are natively supported here, so just plug and play, and enjoy!
 
-      - EXTRA: If you wanna use Lutris via Flatpak (for Steam users) you might wanna try this script right here for applying mf-install into your Wine bottle: `#!/bin/bash flatpak run --command=bottles-cli com.usebottles.bottles shell -b 'BOTTLE' -i './mf-install.sh'`
-
    # KH3-Heroic 
 
    - Same as Lutris, but
@@ -57,7 +55,7 @@ For the repacked version, we're gonna use Lutris.
 
       You can Also apply the same principle for Steam as well, how to do it?
 
-   # KH3-Steam!
+   # KH3-Steam
 
    - Make sure to have Proton 5.13-6 up and running via Steam (if you downloaded from Heroic, make sure to copy its folder (it should be called Proton-5.3) into `~/.steam/steam/steamapps/common`.
    - Install the game using a local Wine build (or you could also use Lutris if you want) wherever you like
@@ -68,6 +66,16 @@ For the repacked version, we're gonna use Lutris.
    - Also, as of yet, the game has a few shutters under Wayland. You wanna keep using X11 for the time being :P
    - Done! Enjoy! 
 
+   # KH3-Bottles
+    
+    Since [this issue](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/issues/7) got to my attention, it is possible to install KH3 using Bottles as well, if you don't intend to use neither Lutris nor Steam. I suspect you could also install all of the other KH Titles as well using it, but I haven't tried it myself yet. Feel free to let me know though!
+
+The script (assuming you're using the Flatpak version of Bottles on your Linux Machine / Steam Deck) is the following:
+`#!/bin/bash
+flatpak run --command=bottles-cli com.usebottles.bottles shell -b '<BOTTLE>' -i './mf-install.sh'`
+(replace BOTTLE with the name of your KH3 instance inside Bottles)
+Just copy it over a text editor, rename it "Run.sh" and make it executable. Let me know!
+Again, more infos over the link above.
 
   # KH2.8-Lutris
 
