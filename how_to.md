@@ -1,6 +1,6 @@
 # The whole Kingdom Hearts collection on Wine Lutris !
 
-WARNING: the following guide contains a guide that applies to both the paid game via EGS or the quacked version (If you know, you know). I STRONGLY ADVISE YOU TO BUY THE GAME FROM THE OFFICIAL SOURCE in order to support the dev's work.
+WARNING: the following guide contains a guide that applies only for the QUACKED version of the KH Collection (So, KH3, KH1.5+2-5 etc.). I STRONGLY ADVISE YOU TO BUY THE GAME FROM THE OFFICIAL SOURCE in order to support the dev's work.
 FOR Heroic Games: check the Useful Links tab, there's a video guide on Youtube (credits to [The DarKris](https://www.youtube.com/@TheDarKris) and [KHOmega](https://www.youtube.com/@KHOmega) for their tutorials. Appreciated guys! :)
 
 # Table of elements
