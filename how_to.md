@@ -51,7 +51,7 @@ If everything went okay, tick Play and you should be up and running! Enjoy!
     3. After it has finished, write exit and press enter.
  
  #Useful Links
- - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck)
+ - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](https://www.youtube.com/watch?v=KH7ogB9mhuE&t=616s))
  - [How to get TopazTK's Kingdom Hearts Re:Fined working on Steam Deck](https://www.youtube.com/watch?v=i6MKeoRYVhc)
  - [Kingdom Hearts 3 - How To Play On Steam Deck (Install & Testing)](https://www.youtube.com/watch?v=J6msJ_SbLcw)
 
