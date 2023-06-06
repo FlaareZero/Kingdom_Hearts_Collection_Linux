@@ -50,7 +50,7 @@ If everything went okay, tick Play and you should be up and running! Enjoy!
     2. put yourself on the _prefix folder (in this case, for example, **cd "/home/matt/Games/KH2.8/_prefix"**) and then drag and drop the mf-install.sh onto the terminal window.
     3. After it has finished, write exit and press enter.
  
- #Useful Links
+ ## Useful Links
  - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](https://www.youtube.com/watch?v=KH7ogB9mhuE&t=616s))
  - [How to get TopazTK's Kingdom Hearts Re:Fined working on Steam Deck](https://www.youtube.com/watch?v=i6MKeoRYVhc)
  - [Kingdom Hearts 3 - How To Play On Steam Deck (Install & Testing)](https://www.youtube.com/watch?v=J6msJ_SbLcw)
