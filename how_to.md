@@ -13,7 +13,7 @@ WARNING: the following guide contains a guide that applies to both the paid game
 - In order to play the whole collection you'll need the following:
 	- Lutris (for the quacked version) or Heroic Games Launcher (for the paid version). You can easily grab them from the Flathub repo.
 	- A modern PC with a NVIDIA or AMD GPU / a Steam Deck. Of course, you'll need the Proprietary NVIDIA drivers (latest version is 530) or latest Mesa if you're on AMD/Intel. Not gonna cover that up here, but there's plenty of ways to do that on the net.
-	- Flatpak installed on your system (refer to [here](https://flatpak.org/setup/)
+	- Flatpak installed on your system (refer to [here](https://flatpak.org/setup/))
 	- [mf-install](https://github.com/z0z0z/mf-install) (you'll need it for KH3. Just download it and put it somewhere on your system)
 	- [ProtonUP-Qt](https://davidotek.github.io/protonup-qt/) for the latest and greatest of Proton, Wine or GE-Wine (For Lutris especially)
 
