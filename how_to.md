@@ -43,7 +43,7 @@ It should open up a terminal. From here, write the following:
 If everything went okay, tick Play and you should be up and running! Enjoy!
 
 **All the remaining titles**
-- Same exact steps as for Kingdom Hearts 3 except you won't need to install corefonts and faudio, so you can just avoid that steps. Make sure for every game to create a different Wine Bottle (for example, 1.5+2.5 will have another _prefix you'll have to specify in the game options), and for **2.8 and DDD / Melody of Memory** make sure to do this additional step:
+- Same exact steps as for Kingdom Hearts 3 except you won't need to install corefonts and faudio, so you can just avoid that. Also, for EVERY game, create a different Wine Bottle (for example, 1.5+2.5 will have another _prefix you'll have to specify in the game options), and for **2.8 and DDD / Melody of Memory** make sure to do this additional step:
     1. tick on the arrow up and select **open bash terminal**
     2. put yourself on the _prefix folder (in this case, for example, **cd "/home/matt/Games/KH2.8/_prefix"**) and then drag and drop the mf-install.sh onto the terminal window.
     3. After it has finished, write exit and press enter.
