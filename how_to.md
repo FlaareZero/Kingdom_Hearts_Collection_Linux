@@ -33,12 +33,13 @@ In game Options:
 In Runner Options, select the WineGE you've just downloaded. Tick advanced, and make sure DXVK is on the latest version (as of the writing of this how_to, 2.2).
 After you've finished, click on Save.
 
-Good. Now we'll install a few things. Click on the Kingdom Hearts Bottle you've just created, tick the arrow up next to the bottle icon and press Wine Control Panel. I'll create the Wine Bottle for you. When asked, install everything. Afterwards, close the window. Now, tick on the arrow up again - Open bash terminal.
+- Good. Now we'll install a few things. Click on the Kingdom Hearts Bottle you've just created, tick the arrow up next to the bottle icon and press Wine Control Panel. I'll create the Wine Bottle for you. When asked, install everything. Afterwards, close the window. Now, tick on the arrow up again - Open bash terminal.
 It should open up a terminal. From here, write the following:
 	1. winetricks corefonts faudio (let it finish, it'll take some time)
 	2. put yourself on the folder where the prefix you've just created is (in this case, cd /home/example/_prefix)
 	3. now, with your file manager, go to the folder where you've extracted mf-install. grab the file **mf-install.sh** and drop it onto the terminal and press enter. I'll install on the prefix you've just created
 	4. Close the terminal by typing exit
+
 If everything went okay, tick Play and you should be up and running! Enjoy!
  Little proofs for you all:
 ![](https://github.com/FlaareZero/Kingdom_Hearts_Collection_Linux/blob/main/photo_2021-06-22_17-51-08.jpg)
