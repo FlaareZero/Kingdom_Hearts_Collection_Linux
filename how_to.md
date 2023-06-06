@@ -5,7 +5,7 @@ WARNING: the following guide contains a guide that applies to both the paid game
 # Table of elements
 
 1. [Prerequisites](#prerequisites)
-2. [Installing on Lutris](#installing1)
+2. [Installing on Lutris](#installing-on-lutris)
 
 
 ## Prerequisites
