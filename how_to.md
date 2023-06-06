@@ -1,11 +1,13 @@
-# The whole Kingdom Hearts collection on Wine Lutris / Heroic!
+# The whole Kingdom Hearts collection on Wine Lutris !
 
 WARNING: the following guide contains a guide that applies to both the paid game via EGS or the quacked version (If you know, you know). I STRONGLY ADVISE YOU TO BUY THE GAME FROM THE OFFICIAL SOURCE in order to support the dev's work.
+FOR Heroic Games: check the Useful Links tab, there's a video guide on Youtube :)
 
 # Table of elements
 
 1. [Prerequisites](#prerequisites)
 2. [Installing on Lutris](#installing-on-lutris)
+3. [Useful links](#useful-links)
 
 
 ## Prerequisites
@@ -47,6 +49,11 @@ If everything went okay, tick Play and you should be up and running! Enjoy!
     1. tick on the arrow up and select **open bash terminal**
     2. put yourself on the _prefix folder (in this case, for example, **cd "/home/matt/Games/KH2.8/_prefix"**) and then drag and drop the mf-install.sh onto the terminal window.
     3. After it has finished, write exit and press enter.
+ 
+ #Useful Links
+ - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck)
+ - [How to get TopazTK's Kingdom Hearts Re:Fined working on Steam Deck](https://www.youtube.com/watch?v=i6MKeoRYVhc)
+ - [Kingdom Hearts 3 - How To Play On Steam Deck (Install & Testing)](https://www.youtube.com/watch?v=J6msJ_SbLcw)
 
 
  Little proofs for you all:
