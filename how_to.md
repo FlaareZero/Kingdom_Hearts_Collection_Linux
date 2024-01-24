@@ -14,7 +14,7 @@ WARNING: the following guide contains step-by-step instructions that applies onl
 ## Prerequisites
 
 - In order to play the whole collection you'll need the following:
-	- Lutris (for the quacked version) or Heroic Games Launcher (for the paid version). You can easily grab them from the Flathub repo.
+	- Lutris (for the quacked and paid version) or Heroic Games Launcher (for the paid version). You can easily grab them from the Flathub repo.
 	- A modern PC with a NVIDIA or AMD GPU / a Steam Deck. Of course, you'll need the Proprietary NVIDIA drivers (latest version is 530) or latest Mesa if you're on AMD/Intel. Not gonna cover that up here, but there's plenty of ways to do that on the net.
 	- Flatpak installed on your system (refer to [here](https://flatpak.org/setup/))
 	- [mf-install]([https://github.com/z0z0z/mf-install](https://github.com/Kurumi78/mf-install)) (you'll need it for KH3/KH2.8/Melody of Memory. Just download it and put it somewhere on your system) (Thanks to @[Kurumi78](https://github.com/Kurumi78) for the repo backup, since the original account of the repo has been since deleted
@@ -48,8 +48,9 @@ If everything went okay, tick Play and you should be up and running! Enjoy!
 **All the remaining titles**
 - Same exact steps as for Kingdom Hearts 3 except you won't need to install corefonts and faudio, so you can just avoid that. Also, for EVERY game, create a different Wine Bottle and rename every ```EPIC ``` folder into ```EPIC.bak```. You'll be able to avoid the unplayable cutscenes that way. (for example, 1.5+2.5 will have another _prefix you'll have to specify in the game options). For **2.8 and DDD / Melody of Memory** make sure to do this additional step:
     1. tick on the arrow up and select **open bash terminal**
-    2. put yourself on the _prefix folder (in this case, for example, **cd "/home/matt/Games/KH2.8/_prefix"**) and then drag and drop the mf-install.sh onto the terminal window.
+    2. put yourself on the _prefix folder (in this case, for example, **cd "/home/matt/Games/KH2.8/_prefix"**) and then drag and drop the mf-install.sh onto the terminal window and press enter to start the installation process.
     3. After it has finished, write exit and press enter.
+    4. Enjoy!
  
  ## Useful Links
  - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](https://www.youtube.com/watch?v=KH7ogB9mhuE&t=616s)
