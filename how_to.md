@@ -17,7 +17,7 @@ WARNING: the following guide contains step-by-step instructions that applies onl
 	- Lutris (for the quacked and paid version) or Heroic Games Launcher (for the paid version). You can easily grab them from the Flathub repo.
 	- A modern PC with a NVIDIA or AMD GPU / a Steam Deck. Of course, you'll need the Proprietary NVIDIA drivers (latest version is 530) or latest Mesa if you're on AMD/Intel. Not gonna cover that up here, but there's plenty of ways to do that on the net.
 	- Flatpak installed on your system (refer to [here](https://flatpak.org/setup/))
-	- [mf-install]([https://github.com/z0z0z/mf-install](https://github.com/Kurumi78/mf-install)) (you'll need it for KH3/KH2.8/Melody of Memory. Just download it and put it somewhere on your system) (Thanks to @[Kurumi78](https://github.com/Kurumi78) for the repo backup, since the original account of the repo has been since deleted
+	- [mf-install]([https://github.com/z0z0z/mf-install](https://github.com/Kurumi78/mf-install)) (you'll need it for KH3/KH2.8/Melody of Memory. Just download it and put it somewhere on your system) (Thanks to [Kurumi78](https://github.com/Kurumi78) for the repo backup, since the original account of the repo has been since deleted
 	- [ProtonUP-Qt](https://davidotek.github.io/protonup-qt/) for the latest and greatest of Proton, Wine or GE-Wine (For Lutris especially)
 
 
@@ -25,32 +25,32 @@ WARNING: the following guide contains step-by-step instructions that applies onl
 
 **Kingdom Hearts III**
 - Download your game and extract / install it somewhere on your system (I have, for example, a folder called "Games" with all my games in it)
-- Then, download the Flatpak version of Lutris and ProtonUp. Open Lutris the first time, let him do his things, close it and then open ProtonUp, and from here grab this stuff you'll need by clicking **Add Version**:
+- Then, download the Flatpak version of Lutris and ProtonUp. Open Lutris the first time, let him do his things, close it and then open ProtonUp, and from here grab the following by clicking **Add Version**:
 	1. Wine-Ge, the latest (click install afterwards)
 	2. DXVK, grab the latest (click install afterwards)
 Now close ProtonUp, open up Lutris, and click on the + button. **Add Locally installed game**, set it up as you wish and on runner select Wine. 
 In game Options:
 	1. Executable = The .exe of the game (KINGDOM HEARTS III.exe). Just point it to that executable
 	2. Working Directory = the folder where the .exe is
-	3. Wine Prefix = Create a folder wherever you want (for the example I'll use here, it's on /home/example/_prefix). I'll contain ALL of the game files.
+	3. Wine Prefix = Create a folder wherever you want (for the example I'll use here, it's on /home/your_name/_prefix). I'll contain ALL of the game files.
 In Runner Options, select the WineGE you've just downloaded. Tick advanced, and make sure DXVK is on the latest version (as of the writing of this how_to, 2.2).
 After you've finished, click on Save.
 
 - Good. Now we'll install a few things. Click on the Kingdom Hearts Bottle you've just created, tick the arrow up next to the bottle icon and press Wine Control Panel. I'll create the Wine Bottle for you. When asked, install everything. Afterwards, close the window. Now, tick on the arrow up again - Open bash terminal.
 It should open up a terminal. From here, write the following:
-	1. ```winetricks corefonts faudio ```(let it finish, it'll take some time)
-	2. put yourself on the folder where the prefix you've just created is (in this case, ``` cd /home/example/_prefix ```)
-	3. now, with your file manager, go to the folder where you've extracted mf-install. grab the file **mf-install.sh** and drop it onto the terminal and press enter. I'll install on the prefix you've just created
+	1. ```winetricks corefonts faudio ```(let it finish, it'll take some time)(You'll need an active internet connection, else it'll fail)
+	2. put yourself on the folder where the prefix you've just created is (in this case, ``` cd /home/your_name/_prefix ```)
+	3. now, with your file manager, go to the folder where you've extracted mf-install. grab the file **mf-install.sh** and drop it onto the terminal and press enter. I'll install on the prefix you've just created.
 	4. Close the terminal by typing exit
 
 If everything went okay, tick Play and you should be up and running! Enjoy!
 
 **All the remaining titles**
-- Same exact steps as for Kingdom Hearts 3 except you won't need to install corefonts and faudio, so you can just avoid that. Also, for EVERY game, create a different Wine Bottle and rename every ```EPIC ``` folder into ```EPIC.bak```. You'll be able to avoid the unplayable cutscenes that way. (for example, 1.5+2.5 will have another _prefix you'll have to specify in the game options). For **2.8 and DDD / Melody of Memory** make sure to do this additional step:
+- Same exact steps as for Kingdom Hearts 3 except you won't need to install corefonts and faudio. Also, for EVERY game, create a different Wine Bottle and rename every ```EPIC ``` folder into ```EPIC.bak```. You'll be able to avoid the unplayable cutscenes that way. (for example, 1.5+2.5 will have another _prefix you'll have to specify in the game options). For **2.8 and DDD / Melody of Memory** make sure to do this additional step:
     1. tick on the arrow up and select **open bash terminal**
     2. put yourself on the _prefix folder (in this case, for example, **cd "/home/matt/Games/KH2.8/_prefix"**) and then drag and drop the mf-install.sh onto the terminal window and press enter to start the installation process.
-    3. After it has finished, write exit and press enter.
-    4. Enjoy!
+    3. After it has finished, write exit and press enter to exit the terminal window.
+    4. Tick play and Enjoy!
  
  ## Useful Links
  - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](https://www.youtube.com/watch?v=KH7ogB9mhuE&t=616s)
