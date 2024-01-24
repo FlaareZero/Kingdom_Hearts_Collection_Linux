@@ -1,7 +1,7 @@
 s# The whole Kingdom Hearts collection on Wine Lutris !
 
 WARNING: the following guide contains a guide that applies only for the QUACKED version of the KH Collection (So, KH3, KH1.5+2-5 etc.). I STRONGLY ADVISE YOU TO BUY THE GAME FROM THE OFFICIAL SOURCE in order to support the dev's work.
-- FOR Heroic Games: check the Useful Links tab, there's a video guide on Youtube (credits to [The DarKris](https://www.youtube.com/@TheDarKris) and [KHOmega](https://www.youtube.com/@KHOmega) for their tutorials. Appreciated guys! :)
+- FOR Heroic Games: check the Useful Links tab, there's a video guide on Youtube and a more recent github repo with detailed step-by-step instructions! (credits to [The DarKris](https://www.youtube.com/@TheDarKris) and [KHOmega](https://www.youtube.com/@KHOmega) for their tutorials. Appreciated guys! :)
 - If you wanna play the HD Collection via Epic Games and use Lutris as a library without relying on Heroic Games, [manuth](https://github.com/manuth) made an installer specifically for you folks out there: you can find it [here](https://lutris.net/games/kingdom-hearts-hd-15-25-remix/)
 
 # Table of elements
