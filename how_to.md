@@ -1,4 +1,4 @@
-# The whole Kingdom Hearts collection on Wine Lutris !
+s# The whole Kingdom Hearts collection on Wine Lutris !
 
 WARNING: the following guide contains a guide that applies only for the QUACKED version of the KH Collection (So, KH3, KH1.5+2-5 etc.). I STRONGLY ADVISE YOU TO BUY THE GAME FROM THE OFFICIAL SOURCE in order to support the dev's work.
 - FOR Heroic Games: check the Useful Links tab, there's a video guide on Youtube (credits to [The DarKris](https://www.youtube.com/@TheDarKris) and [KHOmega](https://www.youtube.com/@KHOmega) for their tutorials. Appreciated guys! :)
@@ -55,7 +55,7 @@ If everything went okay, tick Play and you should be up and running! Enjoy!
  - [How to get Kingdom Hearts 1.5/2.5 HD ReMIX working on Steam Deck](https://www.youtube.com/watch?v=KH7ogB9mhuE&t=616s)
  - [How to get TopazTK's Kingdom Hearts Re:Fined working on Steam Deck](https://www.youtube.com/watch?v=i6MKeoRYVhc)
  - [Kingdom Hearts 3 - How To Play On Steam Deck (Install & Testing)](https://www.youtube.com/watch?v=J6msJ_SbLcw)
- - [How To Run Kingdom Hearts on Steam Deck - Heroic Games Launcher (KH3, 0.2 BBS, Melody of Memory)](https://www.youtube.com/watch?v=8K3QkvKC0UU)
+ - [KINGDOM HEARTS Collection Setup for Windows, Linux, and Steam Deck (includes ReFined)](https://github.com/KHOmega/KH-PC-and-Linux-Setup)
 
 
  Little proofs for you all:
