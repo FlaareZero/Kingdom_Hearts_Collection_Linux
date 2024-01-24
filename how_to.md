@@ -1,4 +1,4 @@
-s# The whole Kingdom Hearts collection on Wine Lutris !
+# The whole Kingdom Hearts collection on Wine Lutris !
 
 WARNING: the following guide contains a guide that applies only for the QUACKED version of the KH Collection (So, KH3, KH1.5+2-5 etc.). I STRONGLY ADVISE YOU TO BUY THE GAME FROM THE OFFICIAL SOURCE in order to support the dev's work.
 - FOR Heroic Games: check the Useful Links tab, there's a video guide on Youtube and a more recent github repo with detailed step-by-step instructions! (credits to [The DarKris](https://www.youtube.com/@TheDarKris) and [KHOmega](https://www.youtube.com/@KHOmega) for their tutorials. Appreciated guys! :)
