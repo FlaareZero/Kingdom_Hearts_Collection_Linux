@@ -17,7 +17,7 @@ WARNING: the following guide contains a guide that applies only for the QUACKED 
 	- Lutris (for the quacked version) or Heroic Games Launcher (for the paid version). You can easily grab them from the Flathub repo.
 	- A modern PC with a NVIDIA or AMD GPU / a Steam Deck. Of course, you'll need the Proprietary NVIDIA drivers (latest version is 530) or latest Mesa if you're on AMD/Intel. Not gonna cover that up here, but there's plenty of ways to do that on the net.
 	- Flatpak installed on your system (refer to [here](https://flatpak.org/setup/))
-	- [mf-install](https://github.com/z0z0z/mf-install) (you'll need it for KH3/KH2.8/Melody of Memory. Just download it and put it somewhere on your system)
+	- [mf-install]([https://github.com/z0z0z/mf-install](https://github.com/Kurumi78/mf-install)) (you'll need it for KH3/KH2.8/Melody of Memory. Just download it and put it somewhere on your system) (Thanks to @[Kurumi78](https://github.com/Kurumi78) for the repo backup, since the original account of the repo has been since deleted
 	- [ProtonUP-Qt](https://davidotek.github.io/protonup-qt/) for the latest and greatest of Proton, Wine or GE-Wine (For Lutris especially)
 
 
